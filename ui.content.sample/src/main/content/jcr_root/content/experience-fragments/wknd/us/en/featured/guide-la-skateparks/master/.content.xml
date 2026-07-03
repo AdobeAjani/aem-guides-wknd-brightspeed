@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-09-26T15:06:55.205-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
-        cq:template="/conf/wknd/settings/wcm/templates/experience-fragment-web-variation-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/experience-fragment-web-variation-template"
         cq:xfVariantType="web"
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"

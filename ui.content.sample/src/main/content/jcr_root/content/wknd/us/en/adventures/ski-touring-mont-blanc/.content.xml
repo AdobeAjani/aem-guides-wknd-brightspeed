@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-11-08T12:48:39.074-08:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:region/emea/switzerland,wknd-shared:season/winter,wknd-shared:activity/skiing]"
-        cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/adventure-page-template"
         jcr:description="This adventure includes 5 days of ski touring topped off with the ascent of Mont Blanc, the highest point in Western Europe. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"

@@ -34,7 +34,7 @@ Cypress.Commands.add('WKNDCreateContentPage', function (dir, title) {
   // click on create page
   cy.get('betty-titlebar-secondary a.cq-siteadmin-admin-createpage').click()
   // on the next screen select the content page template
-  cy.get('.foundation-collection-item[data-foundation-collection-item-id="/conf/wknd/settings/wcm/templates/content-page-template"]').click()
+  cy.get('.foundation-collection-item[data-foundation-collection-item-id="/conf/brightspeed/settings/wcm/templates/content-page-template"]').click()
   // click on next
   cy.get('coral-panel.is-selected button.foundation-wizard-control[data-foundation-wizard-control-action="next"]').click()
 

@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-11-08T12:48:39.021-08:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:region/apac/australia,wknd-shared:season/summer,wknd-shared:activity/hiking,wknd-shared:activity/camping,wknd-shared:activity/hunting-fishing]"
-        cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/adventure-page-template"
         jcr:description="Learn how to pitch a tent by the Siegel River, catch local cod, and spot unique Australian wildlife on this retreat. Or, you can sit back in the shade with a cool beverage and a book until it's too dark to read, then tell stories around a campfire. "
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"

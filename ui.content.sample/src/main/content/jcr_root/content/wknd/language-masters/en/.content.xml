@@ -6,7 +6,7 @@
         cq:lastModified="{Date}2020-09-30T17:28:29.020-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd-shared:customer-journey/attract]"
-        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/landing-page-template"
         jcr:description="WKND is a collective of outdoors, music, crafts, adventure sports, and travel enthusiasts that want to share our experiences, connections, and expertise with the world."
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Adventures and Travel"

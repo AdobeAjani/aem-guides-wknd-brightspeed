@@ -4,8 +4,8 @@
     cq:allowedTemplates="[/conf/(.*)/settings/wcm/templates/experience-fragment(.*)?]"
     jcr:primaryType="sling:OrderedFolder"
     jcr:title="WKND Site Fragments"
-    cq:conf="/conf/wknd"
-    sling:configRef="/conf/wknd">
+    cq:conf="/conf/brightspeed"
+    sling:configRef="/conf/brightspeed">
     <language-masters/>
     <us/>
     <ca/>

@@ -2,13 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:conf="/conf/wknd"
+        cq:conf="/conf/brightspeed"
         cq:lastModified="{Date}2020-07-09T08:59:55.586-07:00"
         cq:lastModifiedBy="admin"
         cq:lastRolledout="{Date}2020-07-09T08:59:55.587-07:00"
         cq:lastRolledoutBy="admin"
         cq:lastTranslationUpdate="{Date}2019-10-28T11:20:32.026-07:00"
-        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/landing-page-template"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"

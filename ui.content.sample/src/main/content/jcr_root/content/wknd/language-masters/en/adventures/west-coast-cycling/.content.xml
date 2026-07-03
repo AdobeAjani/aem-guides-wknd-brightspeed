@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2020-11-08T12:28:19.148-08:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd-shared:activity/cycling,wknd-shared:season/fall]"
-        cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/adventure-page-template"
         jcr:description="Join us for this once in a lifetime bike trip traveling from San Francisco to Portland cycling along the Pacific Coast. Experience world class terrain as we head north through redwood forests, state parks, the Columbia river and the Pacific ocean."
         jcr:primaryType="cq:PageContent"
         jcr:title="West Coast Cycling"

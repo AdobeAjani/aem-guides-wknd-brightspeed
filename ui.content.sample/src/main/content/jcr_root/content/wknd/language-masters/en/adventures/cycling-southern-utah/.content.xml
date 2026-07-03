@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2020-11-06T18:52:14.804-08:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/adventure-page-template"
         jcr:primaryType="cq:PageContent"
         jcr:title="Cycling Southern Utah"
         jcr:description="Join us as we explore the rugged, stunningly gorgeous landscape of southern Utah. Touch your soul as we ride through red rock canyons and sandstone cliffs in Bryce Canyon and Zion National Park, two of Utah's iconic national parks. These parks provide a stunning backdrop for a once in a lifetime cycling vacation."

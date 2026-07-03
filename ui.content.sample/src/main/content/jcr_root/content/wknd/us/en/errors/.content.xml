@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-11-13T14:10:14.829-08:00"
         cq:lastRolledoutBy="admin"
         cq:redirectTarget="/content/wknd/language-masters/en"
-        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/content-page-template"
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Error Handler Pages"

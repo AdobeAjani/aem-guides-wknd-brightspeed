@@ -4,7 +4,7 @@
     <jcr:content
         cq:lastModified="{Date}2019-09-26T11:33:47.922-07:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/landing-page-template"
         jcr:language="fr_fr"
         jcr:primaryType="cq:PageContent"
         jcr:title="France"

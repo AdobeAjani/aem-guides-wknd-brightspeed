@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-09-30T17:38:21.132-07:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[]"
-        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/article-page-template"
         jcr:description="Breaking down the top skate destinations in all of Los Angeles. You don't want to miss this!"
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"

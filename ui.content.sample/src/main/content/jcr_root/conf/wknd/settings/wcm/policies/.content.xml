@@ -13,7 +13,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Site Default"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/libs/wknd/components/container,group:WKND.Content,/apps/wknd/components/form/container,group:WKND.Structure]"
+                    components="[/libs/wknd/components/container,group:WKND.Content,/apps/brightspeed/components/form/container,group:WKND.Structure]"
                     policyResourceType="wknd/components/container">
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -102,7 +102,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="WKND Article Sidebar"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/wknd/components/button,/apps/wknd/components/download,/apps/wknd/components/image,/apps/wknd/components/list,/apps/wknd/components/separator,/apps/wknd/components/sharing,/apps/wknd/components/text,/apps/wknd/components/title]">
+                    components="[/apps/brightspeed/components/button,/apps/brightspeed/components/download,/apps/brightspeed/components/image,/apps/brightspeed/components/list,/apps/brightspeed/components/separator,/apps/brightspeed/components/sharing,/apps/brightspeed/components/text,/apps/brightspeed/components/title]">
                     <jcr:content
                         cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
                         cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
@@ -200,7 +200,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Site Form"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/wknd/components/form/button,/apps/wknd/components/form/hidden,/apps/wknd/components/form/options,/apps/wknd/components/form/text]">
+                        components="[/apps/brightspeed/components/form/button,/apps/brightspeed/components/form/hidden,/apps/brightspeed/components/form/options,/apps/brightspeed/components/form/text]">
                         <jcr:content
                             cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
                             cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"
@@ -726,7 +726,7 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     autopauseDisabled="false"
                     autoplay="false"
-                    components="[/apps/wknd/components/experiencefragment,/apps/wknd/components/image,/apps/wknd/components/teaser]"
+                    components="[/apps/brightspeed/components/experiencefragment,/apps/brightspeed/components/image,/apps/brightspeed/components/teaser]"
                     delay="5000">
                     <jcr:content
                         cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
@@ -910,7 +910,7 @@
                     jcr:title="WKND Accordion"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedHeadingElements="h3"
-                    components="[/apps/wknd/components/button,/apps/wknd/components/image,/apps/wknd/components/text,/apps/wknd/components/title]"
+                    components="[/apps/brightspeed/components/button,/apps/brightspeed/components/image,/apps/brightspeed/components/text,/apps/brightspeed/components/title]"
                     headingElement="h3">
                     <jcr:content
                         cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
@@ -1258,7 +1258,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Social Media Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/cq/experience-fragments/editor/components/buildingblock,/apps/wknd/components/contentfragment,/apps/wknd/components/image,/apps/wknd/components/text]">
+                        components="[/libs/cq/experience-fragments/editor/components/buildingblock,/apps/brightspeed/components/contentfragment,/apps/brightspeed/components/image,/apps/brightspeed/components/text]">
                         <jcr:content
                             cq:lastReplicated="{Date}2023-09-15T11:00:00.000-07:00"
                             cq:lastReplicated_preview="{Date}2023-09-15T11:00:00.000-07:00"

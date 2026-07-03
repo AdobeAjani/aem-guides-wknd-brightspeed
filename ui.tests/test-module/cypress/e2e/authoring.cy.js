@@ -60,7 +60,7 @@ describe('validate the Wknd authoring flow', () => {
     // clik on add
     cy.get('button[data-action="INSERT"][data-path="' + testPage.path + '/jcr:content/root/container/*"]').click()
     // select the hello world component
-    cy.get('coral-list-item[value="/apps/wknd/components/helloworld"]').click()
+    cy.get('coral-list-item[value="/apps/brightspeed/components/helloworld"]').click()
     // verify component is in page
     cy.get('div[data-path="' + testPage.path + '/jcr:content/root/container/helloworld"]').should('exist')
     // verify component content in page

@@ -8,7 +8,7 @@
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:tags="[wknd-shared:activity/skiing]"
-        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/article-page-template"
         jcr:description="Learn about our ski touring experience and how it differs from traditional downhill skiing and even backcountry skiing."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"

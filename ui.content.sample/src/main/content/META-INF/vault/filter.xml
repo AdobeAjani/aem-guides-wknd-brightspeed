@@ -11,9 +11,9 @@
     <filter root="/content/experience-fragments/wknd" mode="merge"/>
 
     <!-- Force Policy and Template Updates -->
-    <filter root="/conf/wknd/settings/wcm" mode="merge"/>
-    <filter root="/conf/wknd/settings/cloudconfigs" mode="merge" />
-    <filter root="/conf/wknd/settings/cloudsettings" mode="merge" />
+    <filter root="/conf/brightspeed/settings/wcm" mode="merge"/>
+    <filter root="/conf/brightspeed/settings/cloudconfigs" mode="merge" />
+    <filter root="/conf/brightspeed/settings/cloudsettings" mode="merge" />
 
     <!-- WKND Member Group-->
     <filter root="/home/groups/wknd" mode="merge" />

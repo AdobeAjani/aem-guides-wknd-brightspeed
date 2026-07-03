@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2020-07-08T18:16:53.901-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[wknd-shared:customer-journey/engage,wknd-shared:customer-journey/convert,wknd-shared:activity/cycling,wknd-shared:activity/social,wknd-shared:season/summer,wknd-shared:region/emea/italy]"
-        cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/adventure-page-template"
         jcr:description="Visiting Tuscany on a bicycle is about experiencing the old world charm of Italy on your own terms."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"

@@ -7,7 +7,7 @@
         cq:lastRolledout="{Date}2020-11-08T12:48:39.023-08:00"
         cq:lastRolledoutBy="admin"
         cq:tags="[wknd-shared:activity/surfing]"
-        cq:template="/conf/wknd/settings/wcm/templates/adventure-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/adventure-page-template"
         jcr:description="Surfing in Bali is on the bucket list of every surfer - whether you're a beginner or someone who's been surfing for decades, there will be a break to cater to your ability. Bali offers warm water, tropical vibes, awesome breaks and low cost expenses."
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"

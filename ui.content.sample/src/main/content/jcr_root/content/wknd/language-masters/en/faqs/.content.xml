@@ -5,7 +5,7 @@
         cq:lastModified="{Date}2020-07-07T17:58:17.582-07:00"
         cq:lastModifiedBy="admin"
         cq:tags="[]"
-        cq:template="/conf/wknd/settings/wcm/templates/content-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/content-page-template"
         jcr:description="Here we answer some of the questions that we hear most often from the community."
         jcr:primaryType="cq:PageContent"
         jcr:title="FAQs"

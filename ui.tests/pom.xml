@@ -22,13 +22,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.adobe.aem.guides</groupId>
-        <artifactId>aem-guides-wknd</artifactId>
+        <groupId>com.adobe.aem.brightspeed</groupId>
+        <artifactId>brightspeed</artifactId>
         <version>4.0.5-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>aem-guides-wknd.ui.tests</artifactId>
+    <artifactId>brightspeed.ui.tests</artifactId>
     <name>WKND Sites Project - UI Tests</name>
     <description>UI Tests for WKND Sites Project</description>
     <packaging>pom</packaging>

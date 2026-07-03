@@ -8,7 +8,7 @@
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
         cq:tags="[]"
-        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        cq:template="/conf/brightspeed/settings/wcm/templates/article-page-template"
         jcr:description="My brother and I had an amazing Alaskan adventure. Read about how we lived on glaciers for 18 days."
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[mix:versionable]"
