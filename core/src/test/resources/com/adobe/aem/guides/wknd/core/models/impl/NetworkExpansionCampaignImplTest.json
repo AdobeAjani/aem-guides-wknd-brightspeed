@@ -1,0 +1,119 @@
+{
+  "campaign": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability",
+    "analyticsId": "network-expansion-nashville-q4"
+  },
+  "campaign-no-image": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability",
+    "analyticsId": "network-expansion-nashville-q4"
+  },
+  "campaign-no-alt-text": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability",
+    "analyticsId": "network-expansion-nashville-q4"
+  },
+  "campaign-construction": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "construction",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability",
+    "analyticsId": "network-expansion-nashville-q4"
+  },
+  "campaign-available": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "available",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability",
+    "analyticsId": "network-expansion-nashville-q4"
+  },
+  "campaign-missing-headline": {
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability"
+  },
+  "campaign-missing-status": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability"
+  },
+  "campaign-missing-date": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability"
+  },
+  "campaign-missing-service-area": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability",
+    "ctaUrl": "/content/wknd/check-availability"
+  },
+  "campaign-missing-cta-text": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaUrl": "/content/wknd/check-availability"
+  },
+  "campaign-missing-cta-url": {
+    "headline": "Fiber Is Coming To Nashville",
+    "description": "Gig-speed internet is arriving in your neighborhood with faster speeds, increased reliability, and future-ready connectivity.",
+    "serviceArea": "Memphis, TN",
+    "deploymentStatus": "planning",
+    "launchDate": "Q4 2026",
+    "image": "/content/dam/wknd/fiber-infrastructure.png",
+    "imageAltText": "Fiber network infrastructure in Nashville",
+    "ctaText": "Check Availability"
+  }
+}

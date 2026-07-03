@@ -1,0 +1,203 @@
+/*
+ * Copyright 2026 Adobe Systems Incorporated
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* Network Expansion Campaign Component Styles */
+
+.cmp-network-expansion-campaign {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem 0;
+
+    /* Image Section */
+    .cmp-network-expansion-campaign__image {
+        flex: 0 0 45%;
+        min-width: 0;
+
+        .cmp-network-expansion-campaign__image-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+    }
+
+    /* Content Section */
+    .cmp-network-expansion-campaign__content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Headline */
+    .cmp-network-expansion-campaign__headline {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.3;
+        margin: 0;
+        color: #333;
+    }
+
+    /* Description */
+    .cmp-network-expansion-campaign__description {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 0;
+        color: #666;
+    }
+
+    /* Status Badge */
+    .cmp-network-expansion-campaign__badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        font-size: 0.875rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        width: fit-content;
+
+        &.badge-planning {
+            background-color: #0066cc;
+            color: #fff;
+        }
+
+        &.badge-construction {
+            background-color: #ff9500;
+            color: #fff;
+        }
+
+        &.badge-available {
+            background-color: #008000;
+            color: #fff;
+        }
+    }
+
+    /* Launch Date */
+    .cmp-network-expansion-campaign__launch-date {
+        font-size: 0.95rem;
+        margin: 0;
+        color: #555;
+
+        strong {
+            font-weight: 700;
+            color: #333;
+        }
+    }
+
+    /* Service Area */
+    .cmp-network-expansion-campaign__service-area {
+        font-size: 0.95rem;
+        margin: 0;
+        color: #555;
+
+        strong {
+            font-weight: 700;
+            color: #333;
+        }
+    }
+
+    /* CTA Button */
+    .cmp-network-expansion-campaign__cta {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        background-color: #0066cc;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 1rem;
+        transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        cursor: pointer;
+        width: fit-content;
+        border: none;
+        outline: none;
+
+        &:hover {
+            background-color: #0052a3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        &:focus {
+            outline: 3px solid #ffb81c;
+            outline-offset: 2px;
+        }
+
+        &:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+/* Tablet Breakpoint (768px and below) */
+@media (max-width: 768px) {
+    .cmp-network-expansion-campaign {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1.5rem 0;
+
+        .cmp-network-expansion-campaign__image {
+            flex: 1;
+            width: 100%;
+        }
+
+        .cmp-network-expansion-campaign__headline {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* Mobile Breakpoint (480px and below) */
+@media (max-width: 480px) {
+    .cmp-network-expansion-campaign {
+        padding: 1rem 0;
+        gap: 1rem;
+
+        .cmp-network-expansion-campaign__content {
+            gap: 0.75rem;
+        }
+
+        .cmp-network-expansion-campaign__headline {
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .cmp-network-expansion-campaign__description {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .cmp-network-expansion-campaign__badge {
+            font-size: 0.75rem;
+            padding: 0.4rem 0.8rem;
+        }
+
+        .cmp-network-expansion-campaign__launch-date,
+        .cmp-network-expansion-campaign__service-area {
+            font-size: 0.9rem;
+        }
+
+        .cmp-network-expansion-campaign__cta {
+            width: 100%;
+            text-align: center;
+            padding: 0.85rem 1.25rem;
+            font-size: 0.95rem;
+        }
+    }
+}
