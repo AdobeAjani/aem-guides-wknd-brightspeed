@@ -1,0 +1,62 @@
+/* Brightspeed Demo Promo Banner */
+
+.cmp-brightspeed-demo-promo-banner {
+    align-items: flex-start;
+    background: var(--brightspeedPromoBackground, $brand-secondary);
+    box-sizing: border-box;
+    color: var(--brightspeedPromoText, $white);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 100%;
+}
+
+.cmp-brightspeed-demo-promo-banner__content {
+    max-width: 48rem;
+}
+
+.cmp-brightspeed-demo-promo-banner__title {
+    color: inherit;
+    font-family: $font-family-serif;
+    font-size: $font-size-h2;
+    margin: 0;
+}
+
+.cmp-brightspeed-demo-promo-banner__description {
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    margin: 0.75rem 0 0;
+}
+
+.cmp-brightspeed-demo-promo-banner__cta {
+    background: var(--brightspeedPromoAccent, $brand-primary);
+    color: var(--brightspeedPromoCtaText, $black);
+    display: inline-block;
+    flex: 0 0 auto;
+    font-size: $font-size-small;
+    font-weight: $font-weight-bold;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+        color: var(--brightspeedPromoCtaText, $black);
+        text-decoration: underline;
+    }
+
+    &:focus-visible {
+        outline: 3px solid var(--brightspeedPromoText, $white);
+        outline-offset: 3px;
+    }
+}
+
+@media (min-width: $screen-small) {
+    .cmp-brightspeed-demo-promo-banner {
+        align-items: center;
+        flex-direction: row;
+        padding: 2.5rem 3rem;
+    }
+}

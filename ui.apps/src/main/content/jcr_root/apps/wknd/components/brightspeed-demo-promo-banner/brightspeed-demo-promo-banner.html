@@ -1,0 +1,15 @@
+<!--/* Brightspeed Demo Promo Banner */-->
+<sly data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"/>
+<sly data-sly-test.hasContent="${properties.title || properties.description || (properties.ctaText && properties.ctaUrl)}"/>
+
+<section class="cmp-brightspeed-demo-promo-banner" data-sly-test="${hasContent}">
+    <div class="cmp-brightspeed-demo-promo-banner__content">
+        <h2 class="cmp-brightspeed-demo-promo-banner__title" data-sly-test="${properties.title}">${properties.title}</h2>
+        <p class="cmp-brightspeed-demo-promo-banner__description" data-sly-test="${properties.description}">${properties.description}</p>
+    </div>
+    <a class="cmp-brightspeed-demo-promo-banner__cta"
+       data-sly-test="${properties.ctaText && properties.ctaUrl}"
+       href="${properties.ctaUrl}">${properties.ctaText}</a>
+</section>
+
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent, classAppend='cmp-brightspeed-demo-promo-banner'}"/>
