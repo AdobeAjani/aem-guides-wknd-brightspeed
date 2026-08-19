@@ -1,0 +1,4 @@
+project: wknd
+package: com.adobe.aem.guides.wknd.core
+group: WKND.Content
+configured: true

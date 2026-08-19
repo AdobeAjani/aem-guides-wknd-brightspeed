@@ -1,0 +1,32 @@
+<!--/*
+    Product Detail Component
+*/-->
+<sly data-sly-use.productDetail="com.adobe.aem.guides.wknd.core.models.ProductDetail"
+     data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"/>
+
+<article class="cmp-product-detail ${(productDetail.hasImage && productDetail.hasContent) || wcmmode.edit ? 'cmp-product-detail--split' : ''}"
+         data-sly-test="${!productDetail.empty || wcmmode.edit}">
+    <div class="cmp-product-detail__image"
+         data-sly-test="${productDetail.hasImage || wcmmode.edit}">
+        <div data-sly-resource="${'image' @ resourceType='wknd/components/image', decorationTagName='div'}"></div>
+    </div>
+
+    <div class="cmp-product-detail__content"
+         data-sly-test="${productDetail.hasContent || wcmmode.edit}">
+        <h2 class="cmp-product-detail__name"
+            data-sly-test="${productDetail.productName}">${productDetail.productName}</h2>
+        <p class="cmp-product-detail__subheading"
+           data-sly-test="${productDetail.subheading}">${productDetail.subheading}</p>
+        <p class="cmp-product-detail__price"
+           data-sly-test="${productDetail.price}">${productDetail.price}</p>
+        <p class="cmp-product-detail__description"
+           data-sly-test="${productDetail.productDescription}">${productDetail.productDescription}</p>
+        <a class="cmp-product-detail__cta"
+           data-sly-test="${productDetail.hasCta}"
+           href="${productDetail.ctaLink @ context='uri'}">${productDetail.ctaLabel}</a>
+        <p class="cmp-product-detail__details"
+           data-sly-test="${productDetail.additionalDetailText}">${productDetail.additionalDetailText}</p>
+    </div>
+</article>
+
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=productDetail.empty, classAppend='cmp-product-detail'}"/>
