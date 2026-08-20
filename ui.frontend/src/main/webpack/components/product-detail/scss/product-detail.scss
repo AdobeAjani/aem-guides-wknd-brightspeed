@@ -1,0 +1,119 @@
+/* Product Detail */
+
+.cmp-product-detail {
+    box-sizing: border-box;
+    display: grid;
+    gap: 2rem;
+    padding: 1.5rem $gutter-padding;
+    width: 100%;
+}
+
+.cmp-product-detail__image {
+    min-width: 0;
+
+    .cmp-image {
+        height: 100%;
+        margin: 0;
+    }
+
+    .cmp-image__image {
+        aspect-ratio: 1 / 1;
+        border-radius: 1rem;
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+.cmp-product-detail__content {
+    align-self: start;
+    min-width: 0;
+}
+
+.cmp-product-detail__name {
+    color: $black;
+    font-family: $font-family-sans-serif;
+    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.cmp-product-detail__subheading {
+    color: $gray;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    line-height: 1.3;
+    margin: 1.5rem 0 0;
+}
+
+.cmp-product-detail__price {
+    color: $black;
+    font-size: clamp(1.5rem, 3vw, 1.875rem);
+    line-height: 1.3;
+    margin: 2rem 0 0;
+}
+
+.cmp-product-detail__description {
+    color: $gray;
+    font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+    line-height: 1.5;
+    margin: 2rem 0 0;
+}
+
+.cmp-product-detail__cta {
+    align-items: center;
+    background: $black;
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    color: $white;
+    display: flex;
+    font-size: $font-size-large;
+    justify-content: center;
+    margin-top: 2rem;
+    min-height: 4.75rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+
+    &:hover {
+        color: $white;
+        text-decoration: underline;
+    }
+
+    &:focus-visible {
+        color: $white;
+        outline: 3px solid $blue;
+        outline-offset: 3px;
+    }
+}
+
+.cmp-product-detail__details {
+    color: $gray;
+    font-size: $font-size-large;
+    line-height: 1.4;
+    margin: 2rem 0 0;
+}
+
+@media (min-width: $screen-small) {
+    .cmp-product-detail {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: $screen-medium) {
+    .cmp-product-detail--split {
+        align-items: start;
+        gap: clamp(4rem, 9vw, 12rem);
+        grid-template-columns: minmax(0, 1fr) minmax(0, 0.82fr);
+    }
+
+    .cmp-product-detail {
+        padding: 4.375rem 1.75rem 3rem;
+    }
+
+    .cmp-product-detail__content {
+        padding-top: 0.25rem;
+    }
+}
